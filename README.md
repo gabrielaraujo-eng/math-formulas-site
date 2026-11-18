@@ -1,40 +1,35 @@
-# Site de Fórmulas Matemáticas Incríveis
+# Site de Fórmulas Matemáticas
 
-Este projeto é um site elegante e responsivo dedicado a apresentar fórmulas matemáticas fascinantes, desde a geometria até a teoria dos números.
+Site responsivo dedicado a fórmulas fascinantes de geometria, teoria dos números e matemática recreativa. Inclui visualizações, explicações e uma calculadora interativa de números primos.
 
-## 🎨 Design Premium
-O site utiliza uma identidade visual coesa com o tema **Preto e Dourado**:
-- **Fundo:** Preto profundo (#0a0a0a)
-- **Destaques:** Dourado (#d4af37) e Dourado Claro (#f9e27d)
-- **Tipografia:** Serifada (Georgia) para elegância e Monoespaçada (Courier New) para fórmulas.
+## Funcionalidades
 
-## 🚀 Funcionalidades
-- **Curva do Coração:** Visualização de equações implícitas, paramétricas e polares.
-- **Fórmulas de Pi:** De Leibniz a Ramanujan.
-- **Números Primos:** Explicação sobre Polinômio de Euler e Fórmula de Willans.
-- **Calculadora Interativa:** Encontre o n-ésimo número primo instantaneamente (até n=10.000).
+- Curva do coração em diferentes formas matemáticas.
+- Fórmulas de Pi, de Leibniz a Ramanujan.
+- Explicações sobre números primos, Polinômio de Euler e Fórmula de Willans.
+- Calculadora de primos com JavaScript puro.
+- Interface com identidade visual preto e dourado.
 
-## 🛠️ Tecnologias Utilizadas
-- HTML5 Semântico
-- CSS3 (Variáveis, Flexbox, Animações)
-- JavaScript Vanilla (Lógica de primalidade otimizada)
+## Tecnologias
 
-## 📖 Como Abrir Localmente
-1. Clone este repositório.
-2. Abra o arquivo `index.html` em qualquer navegador moderno.
-3. Ou use um servidor local (ex: `python3 -m http.server`).
+HTML5 semântico, CSS3, JavaScript Vanilla e Google Fonts.
 
-## 🧮 Exemplos da Calculadora
-- Para n = 1, o resultado é **2**.
-- Para n = 100, o resultado é **541**.
-- Para n = 1000, o resultado é **7919**.
+## Executar localmente
 
----
-*Desenvolvido como parte de um projeto de organização de conteúdo matemático.*
+```bash
+git clone https://github.com/gabrielaraujo-eng/math-formulas-site.git
+cd math-formulas-site
+python3 -m http.server 8000
+```
 
+Acesse <http://localhost:8000> no navegador.
 
-## Publicação
+## GitHub Pages
 
-Este repositório é publicado automaticamente no GitHub Pages:
+O workflow em `.github/workflows/pages.yml` já publica o conteúdo da raiz do projeto. Para ativar a publicação pela primeira vez, abra **Settings → Pages** no repositório e selecione **GitHub Actions** como fonte. Os próximos pushes na branch `main` serão publicados automaticamente.
 
-https://gabrielaraujo-eng.github.io/math-formulas-site/
+URL esperada: <https://gabrielaraujo-eng.github.io/math-formulas-site/>
+
+## Créditos
+
+Desenvolvido por Gabriel Lúcio de Araújo.
