@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0a0a0a"/>
+  <path d="M13 18h38M13 46h38M20 18c14 8 14 20 0 28M44 18c-14 8-14 20 0 28" fill="none" stroke="#d4af37" stroke-linecap="round" stroke-width="3"/>
+  <text x="32" y="39" fill="#f4d878" font-family="Georgia,serif" font-size="20" font-weight="700" text-anchor="middle">π</text>
+</svg>
